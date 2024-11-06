@@ -48,7 +48,7 @@ Flask
     ```json
     {
         "email_id": "94fce105-cf0a-400d-92ee-bf16f3a8066d",
-        "recipient_email": "gwyneth.guo@u.nus.edu",
+        "recipient_email": "johndoe@mail.com",
         "department_code": "ALL",
         "email_subject": "Greetings!"
     }
@@ -69,7 +69,7 @@ Flask
     - `recipient_email` (string): Email address of the recipient.
 - **Example**:
     ```
-    /tracking/pixel?email_id=94fce105-cf0a-400d-92ee-bf16f3a8066d&recipient_email=gwyneth.guo@u.nus.edu
+    /tracking/pixel?email_id=94fce105-cf0a-400d-92ee-bf16f3a8066d&recipient_email=johndoe@mail.com
     ```
 - **Response**: Returns the pixel image that, when accessed, records an open event for the specified email.
 
