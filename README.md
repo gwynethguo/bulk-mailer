@@ -12,6 +12,25 @@ Flask
 [base64](https://docs.python.org/3/library/base64.html), [functools](https://docs.python.org/3/library/functools.html), [os](https://docs.python.org/3/library/os.html), [datetime](https://docs.python.org/3/library/datetime.html), [uuid](https://docs.python.org/3/library/uuid.html)
 #### External Libraries
 [flask](https://pypi.org/project/Flask/), [dotenv](https://pypi.org/project/python-dotenv/), [pydantic](https://pypi.org/project/pydantic/), [typing](https://pypi.org/project/typing/)
+#### Tools & Deployment
+[Vercel](https://vercel.com)
+
+### Why Flask, Supabase, and Vercel?
+
+#### **Fast Development & Deployment**
+- **Flask**: Flask is a lightweight Python web framework that allows for quick backend development with minimal overhead. It’s perfect for building APIs and small-to-medium applications rapidly.
+- **Supabase**: Supabase manages backend infrastructure, including authentication, database management, and real-time data sync, which reduces the need for manual setup.
+- **Vercel**: Vercel offers serverless functions and requires minimal configuration, making deployments fast and seamless. Its automatic deployment from Git repositories ensures continuous integration without deployment issues.
+
+#### **Scalability**
+- Flask, Supabase, and Vercel are all scalable solutions. Flask allows for flexibility in adding additional routes and features, while Supabase’s PostgreSQL backend can handle growing data needs. Vercel scales automatically with traffic, making it ideal for applications with fluctuating demand.
+
+#### **Cost-effective**
+- Both **Supabase** and **Vercel** offer generous free tiers that provide access to a wide range of features without incurring additional costs. This makes them great choices for startups or small projects with limited budgets.
+
+#### **Relational Data**
+- Supabase is built on top of **PostgreSQL**, which is perfect for applications that require relational data management. This is especially useful for querying and analyzing email history analytics, ensuring that data relationships are well-structured and easy to access.
+
 
 ## API Endpoints
 | HTTP Verb | Endpoint            | Action                                      |
