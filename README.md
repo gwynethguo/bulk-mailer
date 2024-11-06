@@ -1,5 +1,18 @@
 # Smart Mailer Backend
 
+## Technology Stack
+<img height="50" alt="Flask" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/flask/flask-original.svg" />&nbsp;
+<img height="50" alt="Supabase" src="https://github.com/user-attachments/assets/e40fc76b-c8d8-47c3-bb53-c7795abaf596" />&nbsp;
+### Languages
+Python
+### Frameworks
+Flask
+### Libraries
+#### Python Standard Libraries
+[base64](https://docs.python.org/3/library/base64.html), [functools](https://docs.python.org/3/library/functools.html), [os](https://docs.python.org/3/library/os.html), [datetime](https://docs.python.org/3/library/datetime.html), [uuid](https://docs.python.org/3/library/uuid.html)
+#### External Libraries
+[flask](https://pypi.org/project/Flask/), [dotenv](https://pypi.org/project/python-dotenv/), [pydantic](https://pypi.org/project/pydantic/), [typing](https://pypi.org/project/typing/)
+
 ## API Endpoints
 | HTTP Verb | Endpoint            | Action                                      |
 | --------- | ------------------- | -------------------------------------------- |
