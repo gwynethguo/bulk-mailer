@@ -26,7 +26,6 @@ supabase: Client = create_client(url, key)
 
 
 @app.route("/tracking/pixel", methods=["GET"])
-@validate_app_key_req_params
 def get_tracking_pixel():
     gif_path = os.path.join(app.root_path, "static", "images", "pixel.gif")
     email_id = request.args.get("email_id")

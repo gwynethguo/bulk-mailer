@@ -29,8 +29,6 @@ def validate_app_key_req_params(f):
             return jsonify({"error": "Missing authentication credentials"}), 401
 
         token = params.get("app")
-        print(decode_key(token))
-        print(os.environ.get("APP_KEY"))
         if decode_key(token) != os.environ.get("APP_KEY"):
             return jsonify({"error": "Incorrect authentication credentials"}), 401
         else:
