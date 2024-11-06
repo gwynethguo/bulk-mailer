@@ -1,5 +1,20 @@
 # Smart Mailer Backend
 
+## Introduction
+
+This project is a backend service designed to streamline email tracking and analytics. Built with **Flask** and **Supabase**, it provides a robust and scalable solution for managing email history, tracking counters, and delivering real-time insights on email interactions. The backend is intended for use alongside the **smart-mailer** CLI program, which offers a convenient interface for sending and managing emails.
+
+The backend leverages **Flask** for API development and request handling, **Supabase** for relational data storage and real-time capabilities, and **Vercel** for fast, serverless deployment. Together, these tools make it easy to deploy and maintain a scalable email tracking solution, with features that include data validation, real-time data syncing, and secure environment management. This project is ideal for anyone looking to manage email campaigns, analyze user interactions, or integrate email tracking into their applications seamlessly.
+
+### Features
+- **Email History Tracking**: Store and query email history records.
+- **Analytics**: Track counters and analyze interaction data.
+- **Scalability**: Designed for high performance and scalability with Vercel’s serverless architecture.
+- **Real-time Data**: Powered by Supabase, enabling real-time data syncing for analytics.
+
+This README provides an overview of the project structure, setup instructions, and deployment details to help you get started quickly.
+
+
 ## Architecture Diagram
 ![Architecture Diagram](https://github.com/user-attachments/assets/b137d9e4-1935-4e5a-877b-4d1a5130b326)
 This backend is designed to be used with the CLI program available at [smart-mailer CLI program](https://github.com/cmang12/smart-mailer).
