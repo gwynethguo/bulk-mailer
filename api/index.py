@@ -1,6 +1,4 @@
 from flask import Flask, send_file, jsonify, request
-import firebase_admin
-from firebase_admin import credentials, firestore
 from dotenv import load_dotenv
 from pydantic import ValidationError
 from models import (
