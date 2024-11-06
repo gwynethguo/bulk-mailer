@@ -1,7 +1,7 @@
 from flask import Flask, send_file, jsonify, request
 from dotenv import load_dotenv
 from pydantic import ValidationError
-from models import (
+from api.models import (
     EmailHistoryPostRequest,
     EmailHistoryGetResponse,
     EmailHistoryGetResponseList,
