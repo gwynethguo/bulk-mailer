@@ -1,6 +1,6 @@
 # Smart Mailer Backend
 
-## Introduction
+## Overview
 
 This project is a backend service designed to streamline email tracking and analytics. Built with **Flask** and **Supabase**, it provides a robust and scalable solution for managing email history, tracking counters, and delivering real-time insights on email interactions. The backend is intended for use alongside the **smart-mailer** CLI program, which offers a convenient interface for sending and managing emails.
 
