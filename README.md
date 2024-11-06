@@ -1,5 +1,9 @@
 # Smart Mailer Backend
 
+## Architecture Diagram
+![Architecture Diagram](https://github.com/user-attachments/assets/b137d9e4-1935-4e5a-877b-4d1a5130b326)
+This backend is designed to be used with the CLI program available at [smart-mailer CLI program](https://github.com/cmang12/smart-mailer/tree/feat/use-api).
+
 ## Technology Stack
 <img height="50" alt="Flask" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/flask/flask-original.svg" />&nbsp;
 <img height="50" alt="Supabase" src="https://github.com/user-attachments/assets/e40fc76b-c8d8-47c3-bb53-c7795abaf596" />&nbsp;
