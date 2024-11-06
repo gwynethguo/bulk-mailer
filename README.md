@@ -78,3 +78,19 @@ Flask
 - **Description**: Retrieves the count of opened emails for each mass email campaign. This is helpful for assessing engagement.
 - **Request Parameters**: None.
 - **Response**: Returns a JSON object listing email IDs along with their respective open counts.
+
+## Acknowledgements
+
+### **Open-source Libraries and Tools**
+- **Flask**: A lightweight web framework for Python, used to build the backend of this application. [Flask Documentation](https://flask.palletsprojects.com/)
+- **Supabase**: A backend-as-a-service platform built on PostgreSQL, providing real-time data syncing and authentication. [Supabase Documentation](https://supabase.com/docs)
+- **Vercel**: A platform for deployment with serverless functions and automatic Git integration, used for deploying the application. [Vercel Documentation](https://vercel.com/docs)
+- **pydantic**: A data validation and parsing library used to enforce data structure integrity. [Pydantic Documentation](https://pydantic-docs.helpmanual.io/)
+- **dotenv**: Loads environment variables from a `.env` file to manage configuration securely. [python-dotenv Documentation](https://pypi.org/project/python-dotenv/)
+
+### **Code Generation Tools**
+- **OpenAI GPT**: Used to assist with generating boilerplate code and providing programming solutions. [OpenAI](https://openai.com/)
+
+### **Contributions**
+- Special thanks to the open-source community for providing free libraries and frameworks that helped in the development of this project. 
+- Additional code snippets and guidance were provided by various StackOverflow threads, tutorials, and documentation that aided in troubleshooting and solving specific implementation challenges.
