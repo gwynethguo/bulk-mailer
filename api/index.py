@@ -10,6 +10,7 @@ from api.models import (
     TrackingCounterGetResponse,
     TrackingCounterGetResponseList,
 )
+from api.auth import validate_app_key, validate_app_key_req_params
 import os
 
 app = Flask(__name__)
@@ -46,6 +47,7 @@ def get_tracking_pixel():
 
 
 @app.route("/tracking/counter", methods=["GET"])
+@validate_app_key
 def get_tracking_counter():
     response = supabase.table("tracking_view").select("*").execute()
     json_data = response.data
@@ -62,6 +64,7 @@ def get_tracking_counter():
 
 
 @app.route("/email-history", methods=["POST"])
+@validate_app_key
 def insert_email_history():
     try:
         data = EmailHistoryPostRequest(**request.json)
@@ -83,6 +86,7 @@ def insert_email_history():
 
 
 @app.route("/email-history", methods=["GET"])
+@validate_app_key
 def get_email_history():
     resp = supabase.table("history_view").select("*").execute()
     json_data = resp.data
@@ -99,6 +103,7 @@ def get_email_history():
 
 
 @app.route("/email-count-by-dept", methods=["GET"])
+@validate_app_key
 def get_email_history_count():
     resp = supabase.table("email_history").select("department_code, count()").execute()
     json_data = resp.data

@@ -38,6 +38,7 @@ class TrackingCounterGetResponse(BaseModel):
     count: int
     email_id: str
     email_subject: str
+    latest_created_at: datetime
 
 
 class TrackingCounterGetResponseList(BaseModel):
